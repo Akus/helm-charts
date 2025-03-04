@@ -124,6 +124,7 @@ persistence:
   ##   GKE, AWS & OpenStack)
   ##
   # storageClass: "-"
+  storageClass: "efs-sc"
   accessMode: ReadWriteOnce
   size: 50Gi
   mountPath: /var/lib/influxdb2
